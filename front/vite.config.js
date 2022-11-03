@@ -30,6 +30,8 @@ export default defineConfig({
             src: "/pwa-192x192.png",
             sizes: "192x192",
             type: "image/png",
+            // isso é importante por conta de um erro no pwa, pelo menos um ícone
+            purpose: "any maskable",
           },
           {
             src: "/pwa-512x512.png",
